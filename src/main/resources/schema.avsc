@@ -1,0 +1,11 @@
+{
+  "type" : "record",
+  "name" : "Person",
+  "namespace" : "org.anass.kafka",
+  "fields" : [
+    { "name" : "id", "type" : { "avro.java.string" : "String", "type" : "string" } },
+    { "name" : "name", "type" : { "avro.java.string" : "String", "type" : "string" } },
+    { "name" : "address", "type" : { "avro.java.string" : "String", "type" : "string" } },
+    { "name" : "phone", "type" : { "avro.java.string" : "String", "type" : "string" } }
+  ]
+}
